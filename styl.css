@@ -1,0 +1,379 @@
+body
+{
+background-image: url("tlo.png");
+font-size: 20px;
+color:white;
+font-family: 'Oswald', sans-serif;
+margin: 0 !important;
+}
+
+.obraz
+{
+    background-image: url("obrazy/laptop.png");
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imie
+{
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: black;
+    padding: 80px 0 0 0;
+}
+
+.wrapper
+{
+    width: 100%;
+}
+
+.nav
+{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(22, 48, 100);
+    border-top: 1px solid rgb(22, 0, 100);
+    border-bottom: 1px solid rgb(22, 0, 100);
+}
+.nav > ol {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    height:40px;
+    line-height:200%;
+   }
+.nav > ol > li
+{
+    float:right;
+    width:150px;
+    height:40px;
+    border-right: 1px solid rgb(22, 0, 100);
+}
+.nav > ol > li:last-child
+{
+    border-left: 1px solid rgb(22, 0, 100);
+}
+
+.nav > ol > li:hover
+{
+    background-color: rgb(22, 0, 100);;
+}
+
+.nav > ol > li > a 
+{
+    color:white ;
+    text-decoration: none;
+    display: block;
+}
+
+.social
+{
+   width: 100%;
+   text-align: center; 
+}
+
+.socialpoj
+{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+.fb
+{
+    width:150px;
+    height:100px;
+    float:left;
+    color:black
+}
+.fb:hover > a
+{
+    color:#3b5998;
+}
+
+.fb > a
+{
+    color: black ;
+    text-decoration: none;
+    display: block;
+}
+
+a
+{
+    color: black ;
+    text-decoration: none;
+    display: block;
+}
+
+.tw
+{
+    width:150px;
+    height:100px;
+    float:left;
+    color:black
+}
+.tw:hover > a
+{
+    color:#00aced
+}
+.gplus
+{
+    width:150px;
+    height:100px;
+    float:left;
+    color:black
+}
+.gplus:hover > a
+{
+    color:#D44638
+}
+
+
+
+#omnie
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 0, 100);
+    border: 5px solid rgb(22, 48, 100);
+    width: 200px;
+    font-size:40px;
+    text-align: center;
+
+}
+.opis
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    text-align: justify;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+#obraz
+{
+    float:left;
+    width: 300px;
+}
+#oplista
+{
+    float:left;
+    margin-left: 10px;
+    width: 190px;
+}
+#oplista > ol {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    line-height:300%;
+    border-right: 1px solid rgb(22, 0, 100);
+
+   }
+#napis
+{
+    float:left;
+    width: 680px;
+    padding: 10px;
+}
+#umieje
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 0, 100);
+    border: 5px solid rgb(22, 48, 100);
+    width: 200px;
+    font-size:40px;
+    text-align: center;
+
+}
+
+.miejetno
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:1020px;
+}
+
+.web
+{
+    width:300px;
+    margin:20px;
+    text-align: center;
+    float:left;
+    font-size:30px;
+}
+.gra
+{
+    width:300px;
+    margin:20px;
+    text-align: center;
+    float:left;
+    font-size:30px;
+}
+.projekt
+{
+    width:300px;
+    margin:20px;
+    text-align: center;
+    float:left;
+    font-size:30px;
+}
+#proj
+{
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(22, 0, 100);
+border: 5px solid rgb(22, 48, 100);
+width: 200px;
+font-size:40px;
+text-align: center;
+}
+#kabel
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+}
+.ogolnezdj
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height:400px;
+}
+
+.zdjecia
+{
+    position: relative;
+    width: 500px;
+    height:400px;
+}
+.zdjecia .link
+{
+    position: absolute;
+    display: block;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+    font-size: 40px;
+}
+
+.zdjecia:hover .link
+{
+    opacity: 0.6;
+}
+.ogolnezdj > .zdjecia:hover .link > a
+{
+color: red ;
+text-decoration: none;
+display: block;
+}
+.ogolnezdj > .zdjecia:hover .link > p
+{
+color: white ;
+text-decoration: none;
+display: block;
+}
+#lacze
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    height: 30px;
+    width: 200px;
+}
+#kon
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(22, 0, 100);
+    border: 5px solid rgb(22, 48, 100);
+    width: 200px;
+    font-size:40px;
+    text-align: center;
+}
+.calosc
+{
+    background-color: rgb(22, 48, 100);
+    width:400px;
+    padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(255,255,255,1);
+    box-shadow: 5px 5px 5px 0px rgba(255,255,255,1);
+
+}
+.rowno
+{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input
+{
+    font-size: 20px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.margines
+{
+    margin: 20px 10px;
+}
+.mail input{
+border: none;
+outline: none;
+background: none;
+color: whiye;
+width: 200px;
+border-bottom: 2px solid white;
+}
+.formularz input
+{
+    border: none;
+    outline: none;
+    background: none;
+    color: whiye;
+    width: 200px;
+    border-bottom: 2px solid white;
+}
+
+.wiadomosc > textarea
+{
+        background: black;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 20px;
+        color:white;
+        font-family: 'Oswald', sans-serif;
+}    
+.guzik input
+{
+    background: black;
+}
+.stopka
+{
+    text-align: center;
+    background-color: rgb(22, 48, 100);
+    padding: 10px;
+    font-size: 15px;
+}
+
+#napis
+{
+    margin-top: 30px;
+}
